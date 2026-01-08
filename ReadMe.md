@@ -7,7 +7,7 @@ A simple and responsive **Weather Application** that provides real-time weather 
 ## 👨‍💻 Author
 
 **Akhand Soni**  
-1st Year Integrated M.Tech in Software Engineering  
+1st Year Integrated M.Tech in Software Engineering at time of making this project (8th Jan 2026)
 VIT Vellore
 
 ---
@@ -57,5 +57,6 @@ This project was developed for learning and practice purposes to understand. Thi
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
 
 
