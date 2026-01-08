@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand custom-brand" href="#top">Weather App</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link open-modal" href="#about-modal">About This App</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link open-modal" href="#how-modal">How To Use?</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" id="searchForm">
+        <input class="form-control me-2" id="searchInput" type="search" placeholder="City, Country">
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+<div class="row row-cols-1 row-cols-md-3 mb-4 text-center">
+
+  <div class="col">
+    <div class="card">
+      <div class="card-header"><h4>Temperature</h4></div>
+      <div class="card-body">
+        <img src="icons/temp.png" width="60">
+        <h1 id="temp">--°C</h1>
+        <p>Current temperature</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <div class="card-header"><h4>Weather Condition</h4></div>
+      <div class="card-body"> 
+        <h1 id="condition">--</h1>
+        <p>Live weather condition</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <div class="card-header"><h4>Location</h4></div>
+      <div class="card-body">
+        <img src="icons/location.png" width="60">
+        <h1 id="location">--</h1>
+        <p>City & Country</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="text-center mb-4">Other Major Cities</h2>
+
+<div class="table-responsive">
+  <table class="table text-center">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Current Temperature</th>
+        <th>Weather Condition</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-city="Delhi,India"><th class="text-start">Delhi, India</th><td></td><td></td><td></td></tr>
+      <tr data-city="London,UK"><th class="text-start">London, U.K.</th><td></td><td></td><td></td></tr>
+      <tr data-city="New York,USA"><th class="text-start">New York, U.S.A.</th><td></td><td></td><td></td></tr>
+      <tr data-city="Tokyo,Japan"><th class="text-start">Tokyo, Japan</th><td></td><td></td><td></td></tr>
+      <tr data-city="Beijing,China"><th class="text-start">Beijing, China</th><td></td><td></td><td></td></tr>
+      <tr data-city="Moscow,Russia"><th class="text-start">Moscow, Russia</th><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+</main>
+
+<div id="about-modal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h3 style="font-style: italic;">About This App</h3>
+    <p>
+      Weather App is a simple and user-friendly app that provides real-time weather updates. It helps users quickly check current weather conditions and temperatures for any city worldwide.
+    </p>
+  </div>
+</div>
+
+<div id="how-modal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h3 style="font-style: italic;">How To Use</h3>
+    <p>
+      Enter the location in the search bar on the top right using the format city, country for better and accurate results. Weather details for major cities are also displayed below for quick access.
+    </p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: url("imgs/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: rgba(30, 30, 30, 0.95);
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.custom-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+main {
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.card-body img {
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+.table {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+}
+
+.table th,
+.table td {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal:target {
+  display: flex;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.modal-content a.close {
+  display: block;
+  text-align: right;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+}
