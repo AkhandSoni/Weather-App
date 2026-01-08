@@ -18,7 +18,7 @@ VIT Vellore
 - Displays:
   - Temperature
   - Weather condition
-  - Wind speed
+  - Location
 - Real-time weather data
 - Responsive and clean UI
 - Weather details for major cities
@@ -57,4 +57,5 @@ This project was developed for learning and practice purposes to understand. Thi
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
 
