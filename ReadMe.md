@@ -18,7 +18,6 @@ VIT Vellore
 - Displays:
   - Temperature
   - Weather condition
-  - Humidity
   - Wind speed
 - Real-time weather data
 - Responsive and clean UI
@@ -30,8 +29,7 @@ VIT Vellore
 
 - HTML  
 - CSS  
-- JavaScript  
-- Node.js (if used for backend/API handling)  
+- JavaScript    
 - **WeatherAPI.com** (Weather Data API)
 
 ---
@@ -42,16 +40,13 @@ VIT Vellore
 - Provides real-time weather information including:
   - Temperature
   - Weather condition
-  - Humidity
-  - Wind speed
-
-> ⚠️ **Note:** API keys should not be committed directly to the repository. Use environment variables or configuration files.
+  - Location
 
 ---
 
 ## 🎯 Project Purpose
 
-This project was developed for learning and practice purposes to understand:
+This project was developed for learning and practice purposes to understand. This project was assigned to me as a entrance task for the ACM Chapter at VIT Vellore primarily, other reasons are as follows:
 - API integration
 - Frontend development
 - Basic backend handling
@@ -62,3 +57,4 @@ This project was developed for learning and practice purposes to understand:
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
