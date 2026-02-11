@@ -38,7 +38,7 @@
 
 <main id="top">
 
-<div class="row row-cols-1 row-cols-md-3 mb-4 text-center">
+<div class="row row-cols-1 row-cols-md-4 mb-4 text-center">
 
   <div class="col">
     <div class="card">
@@ -72,6 +72,17 @@
     </div>
   </div>
 
+  <div class="col">
+    <div class="card">
+      <div class="card-header"><h4>AQI</h4></div>
+      <div class="card-body">
+        <img src="icons/aqi.png" width="60">
+        <h1 id="AQI">--</h1>
+        <p>pm10</p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <h2 class="text-center mb-4">Other Major Cities</h2>
@@ -84,15 +95,17 @@
         <th>Current Temperature</th>
         <th>Weather Condition</th>
         <th>Location</th>
+        <th>AQI</th>
       </tr>
     </thead>
     <tbody>
-      <tr data-city="Delhi,India"><th class="text-start">Delhi, India</th><td></td><td></td><td></td></tr>
-      <tr data-city="London,UK"><th class="text-start">London, U.K.</th><td></td><td></td><td></td></tr>
-      <tr data-city="New York,USA"><th class="text-start">New York, U.S.A.</th><td></td><td></td><td></td></tr>
-      <tr data-city="Tokyo,Japan"><th class="text-start">Tokyo, Japan</th><td></td><td></td><td></td></tr>
-      <tr data-city="Beijing,China"><th class="text-start">Beijing, China</th><td></td><td></td><td></td></tr>
-      <tr data-city="Moscow,Russia"><th class="text-start">Moscow, Russia</th><td></td><td></td><td></td></tr>
+      <tr data-city="Delhi,India"><th class="text-start">Delhi, India</th><td></td><td></td><td></td><td></td></tr>
+      <tr data-city="London,UK"><th class="text-start">London, U.K.</th><td></td><td></td><td></td><td></td></tr>
+      <tr data-city="New York,USA"><th class="text-start">New York, U.S.A.</th><td></td><td></td><td></td><td></td></tr>
+      <tr data-city="Tokyo,Japan"><th class="text-start">Tokyo, Japan</th><td></td><td></td><td></td><td></td></tr>
+      <tr data-city="Beijing,China"><th class="text-start">Beijing, China</th><td></td><td></td><td></td><td></td></tr>
+      <tr data-city="Moscow,Russia"><th class="text-start">Moscow, Russia</th><td></td><td></td><td></td><td></td></tr>
+
     </tbody>
   </table>
 </div>
